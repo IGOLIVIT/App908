@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CatModel" representedClassName="CatModel" syncable="YES" codeGenerationType="class">
+        <attribute name="catName" optional="YES" attributeType="String"/>
+        <attribute name="catTA" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="catTT" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TasksModel" representedClassName="TasksModel" syncable="YES" codeGenerationType="class">
+        <attribute name="taskDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskDescr" optional="YES" attributeType="String"/>
+        <attribute name="taskName" optional="YES" attributeType="String"/>
+        <attribute name="taskTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskTimeType" optional="YES" attributeType="String"/>
+        <attribute name="taskType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TravelModel" representedClassName="TravelModel" syncable="YES" codeGenerationType="class">
+        <attribute name="trArrival" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="trCity" optional="YES" attributeType="String"/>
+        <attribute name="trCountry" optional="YES" attributeType="String"/>
+        <attribute name="trDep" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="trHoliday" optional="YES" attributeType="String"/>
+        <attribute name="trName" optional="YES" attributeType="String"/>
+        <attribute name="trPlace" optional="YES" attributeType="String"/>
+        <attribute name="trTrans" optional="YES" attributeType="String"/>
+    </entity>
+</model>
