@@ -353,12 +353,12 @@ struct HomeView: View {
                             
                         })
                     .padding(.vertical)
+                    
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg2")))
                 .frame(maxHeight: .infinity, alignment: .bottom)
-                .ignoresSafeArea()
                 .offset(y: viewModel.isData ? 0 : UIScreen.main.bounds.height)
             }
         )
@@ -495,12 +495,12 @@ struct HomeView: View {
                             
                         })
                     .padding(.vertical)
+                    
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg2")))
                 .frame(maxHeight: .infinity, alignment: .bottom)
-                .ignoresSafeArea()
                 .offset(y: viewModel.isAdd ? 0 : UIScreen.main.bounds.height)
             }
         )
