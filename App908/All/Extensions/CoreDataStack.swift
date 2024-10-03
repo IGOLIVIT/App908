@@ -137,5 +137,28 @@ class CoreDataStack {
             print("Error fetching: \(error)")
         }
     }
+    
+    func deleteMood(withMoTNumber name: String, completion: @escaping () -> Void) {
+
+        let context = CoreDataStack.shared.persistentContainer.viewContext
+        let fetchRequest: NSFetchRequest<MoodModel> = MoodModel.fetchRequest()
+
+        fetchRequest.predicate = NSPredicate(format: "moTNumber == %@", name)
+
+        do {
+            let objects = try context.fetch(fetchRequest)
+
+            for object in objects {
+                context.delete(object)
+            }
+
+            CoreDataStack.shared.saveContext()
+
+            completion()
+
+        } catch {
+            print("Error fetching: \(error)")
+        }
+    }
 
 }

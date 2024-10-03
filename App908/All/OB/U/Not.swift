@@ -36,10 +36,9 @@ struct Not: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: {
+                    Button(action: {
                         
-                        R2()
-                            .navigationBarBackButtonHidden()
+                        status = true
                         
                     }, label: {
                         

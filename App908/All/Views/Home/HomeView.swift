@@ -98,6 +98,23 @@ struct HomeView: View {
                 .frame(maxWidth: .infinity)
                 .background(RoundedRectangle(cornerRadius: 25.0).stroke(Color("prim")))
                 
+                Button(action: {
+                    
+                    withAnimation(.spring()) {
+                        
+                        viewModel.isEvent = true
+                    }
+                    
+                }, label: {
+                    
+                    Text("Aviator Event")
+                        .foregroundColor(.white)
+                        .font(.system(size: 18, weight: .semibold))
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 50)
+                        .background(RoundedRectangle(cornerRadius: 10).fill(Color("prim")))
+                })
+                
                 HStack {
                     
                     Text("Categories")
@@ -601,6 +618,136 @@ struct HomeView: View {
                 .offset(y: viewModel.isDelete ? 0 : UIScreen.main.bounds.height)
             }
         )
+        .overlay(
+            
+            ZStack {
+                
+                Color.black.opacity(viewModel.isEvent ? 0.5 : 0)
+                    .ignoresSafeArea()
+                    .onTapGesture {
+                        
+                        withAnimation(.spring()) {
+                            
+                            viewModel.isEvent = false
+                        }
+                    }
+                
+                VStack {
+                    
+                    ZStack {
+                        
+                        Image("ev1")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                     
+                        VStack {
+                            
+                            Spacer()
+                            
+                            Button(action: {
+                                
+                                withAnimation(.spring()) {
+                                    
+                                    viewModel.isEvent = false
+                                    viewModel.isEvent2 = true
+                                }
+                                
+                            }, label: {
+                                
+                                HStack {
+                                    
+                                    Text("Go to")
+                                        .foregroundColor(.white)
+                                        .font(.system(size: 16, weight: .medium))
+                                    
+                                    Image(systemName: "arrow.right")
+                                        .foregroundColor(.white)
+                                        .font(.system(size: 16, weight: .medium))
+                                    
+                                }
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 50)
+                                .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim3")))
+                                
+                            })
+                            .padding(40)
+                        }
+                    }
+                        
+                }
+                .frame(maxWidth: .infinity)
+                .frame(height: 450)
+                .padding()
+                .offset(y: viewModel.isEvent ? 0 : UIScreen.main.bounds.height)
+            }
+        )
+        .overlay(
+            
+            ZStack {
+                
+                Color.black.opacity(viewModel.isEvent2 ? 0.5 : 0)
+                    .ignoresSafeArea()
+                    .onTapGesture {
+                        
+                        withAnimation(.spring()) {
+                            
+                            viewModel.isEvent2 = false
+                        }
+                    }
+                
+                VStack {
+                    
+                    ZStack {
+                        
+                        Image("ev2")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                     
+                        VStack {
+                            
+                            Spacer()
+                            
+                            Button(action: {
+                                
+                                withAnimation(.spring()) {
+                                    
+                                    viewModel.isEvent2 = false
+                                    viewModel.isMood = true
+                                }
+                                
+                            }, label: {
+                                
+                                HStack {
+                                    
+                                    Text("Go to")
+                                        .foregroundColor(.white)
+                                        .font(.system(size: 16, weight: .medium))
+                                    
+                                    Image(systemName: "arrow.right")
+                                        .foregroundColor(.white)
+                                        .font(.system(size: 16, weight: .medium))
+                                    
+                                }
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 50)
+                                .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim3")))
+                                
+                            })
+                            .padding(40)
+                        }
+                    }
+                        
+                }
+                .frame(maxWidth: .infinity)
+                .frame(height: 450)
+                .padding()
+                .offset(y: viewModel.isEvent2 ? 0 : UIScreen.main.bounds.height)
+            }
+        )
+        .sheet(isPresented: $viewModel.isMood, content: {
+            
+            MoodView()
+        })
     }
 }
 

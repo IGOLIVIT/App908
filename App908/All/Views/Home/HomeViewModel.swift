@@ -20,9 +20,11 @@ final class HomeViewModel: ObservableObject {
     @Published var isDetail: Bool = false
     @Published var isDelete: Bool = false
     @Published var isCategories: Bool = false
+    @Published var isEvent2: Bool = false
+    @Published var isMood: Bool = false
 
     @Published var isOn: Bool = false
-    
+    @Published var isEvent: Bool = false
     
     @Published var catName: String = ""
     @Published var catTA: String = ""

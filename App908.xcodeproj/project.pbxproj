@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7861308C2CAE8EA60008F9B6 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861308B2CAE8EA60008F9B6 /* MoodView.swift */; };
+		7861308F2CAE8EB10008F9B6 /* AddMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861308E2CAE8EB10008F9B6 /* AddMood.swift */; };
+		786130912CAE8EBB0008F9B6 /* MoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130902CAE8EBB0008F9B6 /* MoodViewModel.swift */; };
+		786130942CAE977E0008F9B6 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130932CAE977E0008F9B6 /* ScaleView.swift */; };
+		786130962CAEDC220008F9B6 /* sunf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130952CAEDC210008F9B6 /* sunf.swift */; };
+		786130982CAEDC2B0008F9B6 /* Dion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130972CAEDC2B0008F9B6 /* Dion.swift */; };
+		7861309A2CAEDC3F0008F9B6 /* Wirp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130992CAEDC3F0008F9B6 /* Wirp.swift */; };
 		78A13F3F2C972AD200E7D8BC /* App908App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F3E2C972AD200E7D8BC /* App908App.swift */; };
 		78A13F412C972AD200E7D8BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F402C972AD200E7D8BC /* ContentView.swift */; };
 		78A13F432C972AD400E7D8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A13F422C972AD400E7D8BC /* Assets.xcassets */; };
@@ -28,7 +35,6 @@
 		78A13F772C972E1D00E7D8BC /* TravellingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F762C972E1D00E7D8BC /* TravellingViewModel.swift */; };
 		78A13F792C976C5700E7D8BC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F782C976C5700E7D8BC /* CoreDataStack.swift */; };
 		78A13F7B2C976C5D00E7D8BC /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F7A2C976C5D00E7D8BC /* Array.swift */; };
-		78A13F7E2C976F6700E7D8BC /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F7D2C976F6700E7D8BC /* AddCategory.swift */; };
 		78A13F812C983A2000E7D8BC /* AddTravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F802C983A2000E7D8BC /* AddTravel.swift */; };
 		78A13F852C987B4D00E7D8BC /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F842C987B4D00E7D8BC /* DateConvert.swift */; };
 		78A13F882C98C23B00E7D8BC /* TravelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F872C98C23B00E7D8BC /* TravelDetail.swift */; };
@@ -36,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7861308B2CAE8EA60008F9B6 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		7861308E2CAE8EB10008F9B6 /* AddMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMood.swift; sourceTree = "<group>"; };
+		786130902CAE8EBB0008F9B6 /* MoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewModel.swift; sourceTree = "<group>"; };
+		786130932CAE977E0008F9B6 /* ScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
+		786130952CAEDC210008F9B6 /* sunf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sunf.swift; sourceTree = "<group>"; };
+		786130972CAEDC2B0008F9B6 /* Dion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dion.swift; sourceTree = "<group>"; };
+		786130992CAEDC3F0008F9B6 /* Wirp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wirp.swift; sourceTree = "<group>"; };
 		78A13F3B2C972AD200E7D8BC /* App908.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App908.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A13F3E2C972AD200E7D8BC /* App908App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App908App.swift; sourceTree = "<group>"; };
 		78A13F402C972AD200E7D8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,7 +72,6 @@
 		78A13F762C972E1D00E7D8BC /* TravellingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellingViewModel.swift; sourceTree = "<group>"; };
 		78A13F782C976C5700E7D8BC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		78A13F7A2C976C5D00E7D8BC /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		78A13F7D2C976F6700E7D8BC /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
 		78A13F802C983A2000E7D8BC /* AddTravel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravel.swift; sourceTree = "<group>"; };
 		78A13F842C987B4D00E7D8BC /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
 		78A13F872C98C23B00E7D8BC /* TravelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetail.swift; sourceTree = "<group>"; };
@@ -77,6 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7861308A2CAE8E9B0008F9B6 /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				786130922CAE97750008F9B6 /* Scale */,
+				7861308D2CAE8EAA0008F9B6 /* AddMood */,
+				7861308B2CAE8EA60008F9B6 /* MoodView.swift */,
+				786130902CAE8EBB0008F9B6 /* MoodViewModel.swift */,
+			);
+			path = Mood;
+			sourceTree = "<group>";
+		};
+		7861308D2CAE8EAA0008F9B6 /* AddMood */ = {
+			isa = PBXGroup;
+			children = (
+				7861308E2CAE8EB10008F9B6 /* AddMood.swift */,
+			);
+			path = AddMood;
+			sourceTree = "<group>";
+		};
+		786130922CAE97750008F9B6 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				786130932CAE977E0008F9B6 /* ScaleView.swift */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
 		78A13F322C972AD200E7D8BC = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +190,9 @@
 				78A13F782C976C5700E7D8BC /* CoreDataStack.swift */,
 				78A13F7A2C976C5D00E7D8BC /* Array.swift */,
 				78A13F842C987B4D00E7D8BC /* DateConvert.swift */,
+				786130952CAEDC210008F9B6 /* sunf.swift */,
+				786130972CAEDC2B0008F9B6 /* Dion.swift */,
+				786130992CAEDC3F0008F9B6 /* Wirp.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -158,6 +200,7 @@
 		78A13F512C972D4A00E7D8BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7861308A2CAE8E9B0008F9B6 /* Mood */,
 				78A13F6D2C972DF000E7D8BC /* Settings */,
 				78A13F6C2C972DE200E7D8BC /* Travelling */,
 				78A13F6B2C972DDC00E7D8BC /* Home */,
@@ -204,7 +247,6 @@
 		78A13F6B2C972DDC00E7D8BC /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				78A13F7C2C976F5800E7D8BC /* AddCategory */,
 				78A13F6E2C972DF900E7D8BC /* HomeView.swift */,
 				78A13F742C972E1100E7D8BC /* HomeViewModel.swift */,
 			);
@@ -229,14 +271,6 @@
 				78A13F722C972E0800E7D8BC /* SettingsView.swift */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		78A13F7C2C976F5800E7D8BC /* AddCategory */ = {
-			isa = PBXGroup;
-			children = (
-				78A13F7D2C976F6700E7D8BC /* AddCategory.swift */,
-			);
-			path = AddCategory;
 			sourceTree = "<group>";
 		};
 		78A13F7F2C983A1400E7D8BC /* AddTravel */ = {
@@ -334,9 +368,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7861309A2CAEDC3F0008F9B6 /* Wirp.swift in Sources */,
 				78A13F412C972AD200E7D8BC /* ContentView.swift in Sources */,
 				78A13F812C983A2000E7D8BC /* AddTravel.swift in Sources */,
 				78A13F682C972DC800E7D8BC /* Not.swift in Sources */,
+				786130942CAE977E0008F9B6 /* ScaleView.swift in Sources */,
+				7861308F2CAE8EB10008F9B6 /* AddMood.swift in Sources */,
 				78A13F642C972DBD00E7D8BC /* U1.swift in Sources */,
 				78A13F5C2C972DA900E7D8BC /* LoadingView.swift in Sources */,
 				78A13F5A2C972D7F00E7D8BC /* CoreModel.xcdatamodeld in Sources */,
@@ -344,15 +381,18 @@
 				78A13F622C972DB700E7D8BC /* R3.swift in Sources */,
 				78A13F732C972E0800E7D8BC /* SettingsView.swift in Sources */,
 				78A13F772C972E1D00E7D8BC /* TravellingViewModel.swift in Sources */,
-				78A13F7E2C976F6700E7D8BC /* AddCategory.swift in Sources */,
 				78A13F7B2C976C5D00E7D8BC /* Array.swift in Sources */,
+				786130912CAE8EBB0008F9B6 /* MoodViewModel.swift in Sources */,
 				78A13F882C98C23B00E7D8BC /* TravelDetail.swift in Sources */,
 				78A13F662C972DC300E7D8BC /* Reviews.swift in Sources */,
 				78A13F8B2C98C25300E7D8BC /* AddTask.swift in Sources */,
 				78A13F712C972E0100E7D8BC /* TravellingView.swift in Sources */,
+				786130962CAEDC220008F9B6 /* sunf.swift in Sources */,
 				78A13F852C987B4D00E7D8BC /* DateConvert.swift in Sources */,
 				78A13F6A2C972DCF00E7D8BC /* TabBar.swift in Sources */,
 				78A13F792C976C5700E7D8BC /* CoreDataStack.swift in Sources */,
+				7861308C2CAE8EA60008F9B6 /* MoodView.swift in Sources */,
+				786130982CAEDC2B0008F9B6 /* Dion.swift in Sources */,
 				78A13F6F2C972DF900E7D8BC /* HomeView.swift in Sources */,
 				78A13F3F2C972AD200E7D8BC /* App908App.swift in Sources */,
 				78A13F752C972E1100E7D8BC /* HomeViewModel.swift in Sources */,
@@ -488,7 +528,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App908/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Stay Vacation on Holidays";
+				INFOPLIST_KEY_CFBundleDisplayName = "Avaltor: Stay Vacation";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -527,7 +567,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App908/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Stay Vacation on Holidays";
+				INFOPLIST_KEY_CFBundleDisplayName = "Avaltor: Stay Vacation";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

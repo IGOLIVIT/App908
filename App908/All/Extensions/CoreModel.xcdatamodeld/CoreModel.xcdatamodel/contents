@@ -5,6 +5,13 @@
         <attribute name="catTA" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="catTT" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
+    <entity name="MoodModel" representedClassName="MoodModel" syncable="YES" codeGenerationType="class">
+        <attribute name="moDay" optional="YES" attributeType="String"/>
+        <attribute name="moDescr" optional="YES" attributeType="String"/>
+        <attribute name="moEmo" optional="YES" attributeType="String"/>
+        <attribute name="moTNumber" optional="YES" attributeType="String"/>
+        <attribute name="moWeather" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="TasksModel" representedClassName="TasksModel" syncable="YES" codeGenerationType="class">
         <attribute name="taskDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="taskDescr" optional="YES" attributeType="String"/>
