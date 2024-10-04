@@ -42,7 +42,7 @@ struct Reviews: View {
                     }, label: {
                         
                         Text("Next")
-                            .foregroundColor(Color("prim"))
+                            .foregroundColor(Color("prim3"))
                             .font(.system(size: 15, weight: .medium))
                             .frame(maxWidth: .infinity)
                             .frame(height: 50)
@@ -53,7 +53,7 @@ struct Reviews: View {
                 .padding()
                 .frame(maxWidth: .infinity)
                 .frame(height: 240)
-                .background(RoundedRectangle(cornerRadius: 25).fill(Color("prim")))
+                .background(RoundedRectangle(cornerRadius: 25).fill(Color("prim3")))
             }
             .ignoresSafeArea()
         }

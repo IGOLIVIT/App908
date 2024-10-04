@@ -43,7 +43,7 @@ struct Not: View {
                     }, label: {
                         
                         Text("Enable notifications")
-                            .foregroundColor(Color("prim"))
+                            .foregroundColor(Color("prim3"))
                             .font(.system(size: 15, weight: .medium))
                             .frame(maxWidth: .infinity)
                             .frame(height: 50)
@@ -54,7 +54,7 @@ struct Not: View {
                 .padding()
                 .frame(maxWidth: .infinity)
                 .frame(height: 240)
-                .background(RoundedRectangle(cornerRadius: 25).fill(Color("prim")))
+                .background(RoundedRectangle(cornerRadius: 25).fill(Color("prim3")))
             }
             .ignoresSafeArea()
             

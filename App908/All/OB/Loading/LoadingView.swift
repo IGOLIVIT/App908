@@ -12,15 +12,18 @@ struct LoadingView: View {
 
         ZStack {
             
-            Color("bg")
+            Color.black
                 .ignoresSafeArea()
             
             VStack {
                 
-                Image("Llogo")
+                Image("nlogo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 190)
+                    .frame(width: 290)
+            }
+            
+            VStack {
                 
                 Spacer()
                 

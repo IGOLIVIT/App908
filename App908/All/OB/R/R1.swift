@@ -45,7 +45,7 @@ struct R1: View {
                     }, label: {
                         
                         Text("Next")
-                            .foregroundColor(Color("prim"))
+                            .foregroundColor(Color("prim3"))
                             .font(.system(size: 15, weight: .medium))
                             .frame(maxWidth: .infinity)
                             .frame(height: 50)
@@ -56,7 +56,7 @@ struct R1: View {
                 .padding()
                 .frame(maxWidth: .infinity)
                 .frame(height: 240)
-                .background(RoundedRectangle(cornerRadius: 25).fill(Color("prim")))
+                .background(RoundedRectangle(cornerRadius: 25).fill(Color("prim3")))
                 .ignoresSafeArea()
             }
             .ignoresSafeArea(.all, edges: .bottom)
